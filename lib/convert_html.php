@@ -906,6 +906,10 @@ class Body extends Element
 			// Escape comments
 			if (substr($line, 0, 2) == '//') continue;
 
+			if (substr($line, 0, 6) == 'TITLE:') {
+			    continue;
+			}
+
 			if (preg_match('/^(LEFT|CENTER|RIGHT):(.*)$/', $line, $matches)) {
 				// <div style="text-align:...">
 				$this->last = & $this->last->add(new Align(strtolower($matches[1])));
