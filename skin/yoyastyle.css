@@ -1,0 +1,150 @@
+body {
+    // background-color:#FFFFFF;
+    background-image: linear-gradient(to right, #E8FFFF 0%, white 10%, white 80%, #E8FFFF 100%);
+}
+#menubar {
+    background-image: linear-gradient(to right, #FFFFFF 75%, #E8FFFF 100%);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #DDEECC  0%, #F8FFF0 50%);
+}
+h1 {
+    background-color:#FFCCBB;
+}
+h2 {
+    // background-color:#FFDDCC;
+    background-image: linear-gradient(to bottom, #FFDDCC 75%, #DDBBAA 100%);
+}
+h3 {
+    // background-color:#FFEEDD;
+    background-image: linear-gradient(to bottom, #FFEEDD 75%, #DDCC88 100%);
+    margin-left: 0.2em;
+}
+
+h4 {
+    background-image: linear-gradient(to bottom, #FFF8CC 75%, #FFEEDD 100%);
+    margin-left: 0.4em;
+}
+
+li {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.contents {
+    padding:0em 2em;
+    box-shadow: -0.5px -0.5px 1.5px 1.5px #FFCCAA80;
+    background-color: white;
+}
+
+pre {
+    background-color: white;
+    border-color: purple;
+    box-shadow: 0.5px 0.5px 1px purple;
+}
+
+.quotation {
+    padding: 0.5em;
+    margin:  0.5em;
+    background-color: white;
+    border-color: gray;
+    box-shadow: -0.5px -0.5px 1.5px 1.5px gray;
+}
+
+.ul {
+    margin-block-start: -0.5em;
+}
+
+
+/* minicalendar.inc.php */
+.ministyle_calendar
+{
+        width:150px;
+        padding:0px;
+        margin:2px;
+        color:inherit;
+        background-color:#E0E0E0;
+        text-align:center;
+	white-space: nowrap;
+}
+
+.ministyle_td_caltop
+{
+        padding:2px;
+        margin:1px;
+        color:inherit;
+        background-color:#FFF5EE;
+
+}
+
+.ministyle_td_today
+{
+        padding:1px;
+        margin:1px;
+        color:inherit;
+        background-color:#FFFFDD;
+        font-size:16px;
+}
+
+.ministyle_td_sat
+{
+        padding:0px;
+        margin:0px;
+        color:inherit;
+        background-color:#DDE5FF;
+        font-size:16px;
+}
+
+.ministyle_td_sun
+{
+        height:20px;
+//        padding:1px;
+//        margin:1px;
+        padding:0px;
+        margin:0px;
+        color:inherit;
+        background-color:#FFEEEE;
+//        font-size:16px;
+        font-size:15px;
+        text-align:center;
+}
+
+.ministyle_td_blank
+{
+        padding:1px;
+        margin:1px;
+        color:inherit;
+        background-color:#EEEEEE;
+//        font-size:16px;
+        font-size:15px;
+        text-align:center;
+}
+
+.ministyle_td_day
+{
+//        padding:1px;
+//        margin:1px;
+        padding:0px;
+        margin:0px;
+        color:inherit;
+        background-color:#EEF5FF;
+//        font-size:16px;
+        font-size:15px;
+        text-align:center;
+        vertical-align:center;
+}
+
+.ministyle_td_week
+{
+        width:23px;
+        padding:2px 0px;
+        margin:2px 0px;
+        color:inherit;
+        background-color:#E0E0E0; /*#DDE5EE;*/
+        font-size:12px;
+        font-weight:bold;
+        text-align:center;
+}
